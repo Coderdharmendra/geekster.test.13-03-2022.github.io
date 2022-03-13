@@ -1,0 +1,223 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif, serif;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+section .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 80px 0px 50px 0px;
+  background-color: #f0f2f5;
+}
+
+section .main .part1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: left;
+  margin: 100px 0px 0px 250px;
+}
+
+section .main .part1 h1 {
+  color: #146bd7;
+  font-size: 55px;
+  text-transform: lowercase;
+  font-weight: bolder;
+  font-weight: 700;
+}
+
+section .main .part1 p {
+  text-transform: none;
+  font-size: 28px;
+  text-rendering: optimizelegibility;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+section .main .part2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+section .main .part2 .shoadow {
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #ffffffff;
+  margin: 20px 0px 0px -40px;
+  padding: 10px 0px 10px 0px;
+  width: 60%;
+  border-radius: 10px;
+}
+
+section .main .part2 input {
+  width: 85%;
+  margin: 15px 0px 0px 0px;
+  height: 40px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  border: 1.2px solid rgba(128, 128, 128, 0.185);
+}
+
+section .main .part2 button {
+  width: 90%;
+  margin: 20px 0px 15px 0px;
+  height: 45px;
+  background-color: #2091fc;
+  border: none;
+  color: #ffffffff;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+
+section .main .part2 a {
+  width: 50%;
+  font-size: 15px;
+}
+
+section .main .part2 a:hover {
+  text-decoration: underline;
+}
+
+section .main .part2 .line {
+  width: 90%;
+  background-color: rgba(128, 128, 128, 0.185);
+  margin: 20px 20px 30px 20px;
+  height: 1px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+section .main .part2 #btn {
+  background-color: #43b62a;
+  width: 55%;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+section .main .part2 p {
+  text-transform: lowercase;
+  font-size: 15px;
+  margin: 20px 0px 0px -40px;
+  padding: 20px 0px 20px 0px;
+  width: 60%;
+}
+
+section .main .part2 p a {
+  text-decoration: none;
+  margin-right: 10px;
+  text-transform: none;
+  color: black;
+  font-weight: bold;
+}
+
+.animation {
+  padding: 30px;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.animation p {
+  font-size: 3em;
+  font-family: serif;
+  color: transparent;
+  text-align: center;
+  -webkit-animation: effect 2s linear infinite;
+          animation: effect 2s linear infinite;
+}
+
+@-webkit-keyframes effect {
+  0% {
+    background: -webkit-gradient(linear, left top, left bottom, from(#008000), to(#00FF00));
+    background: linear-gradient(#008000, #00FF00);
+    -webkit-background-clip: text;
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, left bottom, from(#3CE7D7), to(#000FFF));
+    background: linear-gradient(#3CE7D7, #000FFF);
+    -webkit-background-clip: text;
+  }
+}
+
+@keyframes effect {
+  0% {
+    background: -webkit-gradient(linear, left top, left bottom, from(#008000), to(#00FF00));
+    background: linear-gradient(#008000, #00FF00);
+    -webkit-background-clip: text;
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, left bottom, from(#3CE7D7), to(#000FFF));
+    background: linear-gradient(#3CE7D7, #000FFF);
+    -webkit-background-clip: text;
+  }
+}
+
+.animation div {
+  width: 380px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  margin: 0px 100px 0px 100px;
+  background: red;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.animation div h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  -webkit-transform: skew(30deg);
+          transform: skew(30deg);
+}
+
+.animation div h1 b {
+  color: #47c8fb;
+}
+
+.animation div:hover {
+  width: 90%;
+}
+
+footer {
+  margin: 30px 200px 30px 200px;
+}
+
+footer ul a {
+  color: black;
+  margin: 10px 15px 30px 0px;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+footer ul .line {
+  width: 90%;
+  background-color: rgba(128, 128, 128, 0.185);
+  margin: 20px 0px 30px 0px;
+  height: 1.5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+footer p {
+  margin: 30px 0px 50px 0px;
+}
+/*# sourceMappingURL=style.css.map */
